@@ -1,37 +1,37 @@
-#FastAPI Appointment Scheduler 📄
+# 🏥 **FASTAPI APPOINTMENT SCHEDULER 📄**
 
-# 🚀 Overview
+## 🚀 **OVERVIEW**
 
-This is a FastAPI-based appointment scheduling API that allows users to:
+This is a **FastAPI-based** appointment scheduling API that allows users to:
 
-- 📌 Create new appointments
-- 📄 Generate PDF confirmations
-- 🔍 Retrieve appointment details
-- 📜 List all scheduled appointments
+- 📌 **Create new appointments**
+- 📄 **Generate PDF confirmations**
+- 🔍 **Retrieve appointment details**
+- 📜 **List all scheduled appointments**
 
-# 🛠 Features
+## 🛠 **FEATURES**
 
-- ✅ RESTful API with FastAPI
-- 📂 PDF appointment confirmation
-- 🔢 Unique reference ID for each appointment
-- 📞 Phone number validation (India: +91 format)
-- 🗂 In-memory storage (can be replaced with a database)
+- ✅ **RESTful API with FastAPI**
+- 📂 **PDF appointment confirmation**
+- 🔢 **Unique reference ID for each appointment**
+- 📞 **Phone number validation (India: +91 format)**
+- 🗂 **In-memory storage (can be replaced with a database)**
 
-# 📦 Installation
+## 📦 **INSTALLATION**
 
 ```sh
 pip install -r requirements.txt
 ```
 
-# ▶️ Running the API
+## ▶️ **RUNNING THE API**
 
 ```sh
 uvicorn api:app --reload
 ```
 
-# 🔗 API Endpoints
+## 🔗 **API ENDPOINTS**
 
-### 1️⃣ Create an Appointment
+### 1️⃣ **CREATE AN APPOINTMENT**
 
 **POST /appointments/**
 
@@ -53,15 +53,15 @@ uvicorn api:app --reload
 }
 ```
 
-### 2️⃣ Get Appointment by Reference ID
+### 2️⃣ **GET APPOINTMENT BY REFERENCE ID**
 
-**GET /appointments/{reference\_id}**
+**GET /appointments/{reference_id}**
 
-### 3️⃣ List All Appointments
+### 3️⃣ **LIST ALL APPOINTMENTS**
 
 **GET /appointments/**
 
-## 📜 Requirements
+## 📜 **REQUIREMENTS**
 
 Create a `requirements.txt` file with the following dependencies:
 
@@ -72,7 +72,6 @@ pydantic
 reportlab
 ```
 
-## 🏁 License
+## 🏁 **LICENSE**
 
-This project is licensed under the Apache 2.0 License. 🚀
-
+This project is licensed under the **Apache 2.0 License**. 🚀
